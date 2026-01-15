@@ -14,12 +14,10 @@
     max-width: 1200px;
     margin: 0 auto;
     font-size: 16px;
-    /* Reduced from 32px */
 }
 
 .navber>div[style="font-weight: bold;"] {
     font-size: 32px;
-    /* Keep Logo large */
 }
 
 .navber-right {
@@ -148,6 +146,49 @@ p {
     padding-bottom: 15px;
 }
 
-.news-list-item:last-child {
-    border-bottom: none;
+
+.only-bbc-container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px 20px;
+
+}
+
+.section-header {
+    font-size: 14px;
+    font-weight: bold;
+    color: #222;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    border-top: 1px solid #ccc;
+    padding-top: 15px;
+    letter-spacing: 0.5px;
+}
+
+.bbc-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.bbc-img {
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    background-color: #ddd;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.bbc-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #111;
+    font-weight: bold;
+}
+
+.bbc-card p {
+    font-size: 15px;
+    color: #555;
+    line-height: 1.5;
 }
